@@ -12,12 +12,12 @@ Aplicación web desarrollada con **FastAPI (Python)** y **JavaScript** que consu
 
 dashboard-clima-api/
 │
-├── main.py            # Backend en FastAPI
-├── requirements.txt   # Librerías necesarias
-├── Dockerfile         # Configuración para Docker
+├── main.py           
+├── requirements.txt   
+├── Dockerfile       
 └── static/
-├── index.html         # Interfaz visual
-    └── script.js      # Lógica de JavaScript y gráficos
+├── index.html        
+    └── script.js      
 
 
 ## ⚙️ Cómo ejecutarlo en local:
