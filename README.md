@@ -9,6 +9,7 @@ Aplicación web desarrollada con **FastAPI (Python)** y **JavaScript** que consu
 
 
 ## Estructura del proyecto: 
+
 dashboard-clima-api/
 │
 ├── main.py            # Backend en FastAPI
