@@ -11,13 +11,12 @@ Aplicación web desarrollada con **FastAPI (Python)** y **JavaScript** que consu
 ## Estructura del proyecto: 
 
 dashboard-clima-api/
-│
-├── main.py           
-├── requirements.txt   
-├── Dockerfile       
-└── static/
-├── index.html        
-    └── script.js      
+    ├── main.py           
+    ├── requirements.txt   
+    ├── Dockerfile       
+    └── static/
+        ├── index.html
+        └── script.js      
 
 
 ## ⚙️ Cómo ejecutarlo en local:
