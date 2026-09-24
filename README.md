@@ -32,13 +32,4 @@ pip install -r requirements.txt
 python -m uvicorn main:app --reload
 
 3. Abre en tu navegador: http://127.0.0.1:8000/static/index.html
-<<<<<<< Updated upstream
 
-
-
-
-
-
-    
-=======
->>>>>>> Stashed changes
