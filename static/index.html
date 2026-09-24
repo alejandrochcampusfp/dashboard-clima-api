@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Meteorológico en Tiempo Real</title>
+    <!-- tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white min-h-screen p-8">
+    <div class="max-w-4xl mx-auto">
+        <header class="mb-8 text-center">
+            <h1 class="text-3xl font-bold text-cyan-400">Dashboard de Clima en Directo</h1>
+            <p class="text-slate-400 mt-2">Datos en tiempo real consumidos desde API externa mediante FastAPI</p>
+        </header>
+
+        <div id="contenedor-tarjetas" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- los datos se van cargando dinamicamente aqui con javascript -->
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 animate-pulse">
+                <p class="text-slate-400">Cargando datos...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
