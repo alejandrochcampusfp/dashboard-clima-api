@@ -8,15 +8,17 @@ Aplicación web desarrollada con **FastAPI (Python)** y **JavaScript** que consu
 * **Despliegue:** Docker, Render
 
 
-## Estructura del proyecto: 
+## Estructura del proyecto:
 
+```text
 dashboard-clima-api/
-    ├── main.py           
-    ├── requirements.txt   
-    ├── Dockerfile       
-    └── static/
-        ├── index.html
-        └── script.js      
+├── main.py            # Backend en FastAPI
+├── requirements.txt   # Librerías necesarias
+├── Dockerfile         # Configuración para Docker
+└── static/
+    ├── index.html     # Interfaz visual
+    └── script.js      # Lógica de JavaScript y gráficos
+
 
 
 ## ⚙️ Cómo ejecutarlo en local:
