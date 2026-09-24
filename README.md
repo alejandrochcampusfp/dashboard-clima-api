@@ -18,6 +18,7 @@ dashboard-clima-api/
 └── static/
     ├── index.html     # Interfaz visual
     └── script.js      # Lógica de JavaScript y gráficos
+````
 
 
 
