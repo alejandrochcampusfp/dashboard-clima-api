@@ -4,6 +4,12 @@ import httpx
 
 app = FastAPI()
 
+from fastapi.responses import RedirectResponse
+
+@app.get("/")
+async def raiz():
+    return RedirectResponse(url="/static/index.html")
+
 # servirr archivos estáticos (HTML, JS, CSS)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
